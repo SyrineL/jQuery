@@ -1,0 +1,62 @@
+
+.header {
+    font-family: "Anton";
+    font-size: 5em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.character {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+.bouton {
+    border-color: rgb(0, 0, 0);
+    border-radius: 10px;
+    background-color: black;
+    color: blanchedalmond;
+}
+
+.image {
+	width: 250px;
+	height: 166px;
+    overflow: hidden;
+    border:5px solid rgb(0, 0, 0);
+    margin: 10px;
+}
+
+
+img {
+    width: 350px;
+    height: 233px;
+    
+}
+
+.box {
+    border: 1px solid rgb(65, 59, 59);
+    box-shadow: 7px 7px 7px  rgb(59, 58, 58);
+    margin-bottom: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.name {
+    font-family: "Anton";
+    font-size: 1.2em;
+}
+
+.title {
+    font-family: "Antonio";
+}
+
+.input {
+    border-radius: 20px;
+    border-color: black;
+}
